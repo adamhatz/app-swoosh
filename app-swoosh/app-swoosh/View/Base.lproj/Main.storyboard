@@ -162,6 +162,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="2s4-AJ-izg" eventType="touchUpInside" id="Lp2-2E-nOU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AX0-Ml-FDQ">
                                 <rect key="frame" x="16" y="10" width="29" height="24"/>
@@ -196,11 +199,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="foL-mt-wwr"/>
                     </view>
+                    <connections>
+                        <segue destination="5K7-Op-dTC" kind="show" identifier="skillVCSegue" id="sgA-ll-AbT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nsD-t6-ipe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="noQ-Tq-6G3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="807" y="133"/>
+            <point key="canvasLocation" x="844" y="133"/>
         </scene>
         <!--SkillVC-->
         <scene sceneID="o1H-G3-vK5">
@@ -292,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gYQ-9c-kAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1471" y="133"/>
+            <point key="canvasLocation" x="1596" y="133"/>
         </scene>
     </scenes>
     <resources>
